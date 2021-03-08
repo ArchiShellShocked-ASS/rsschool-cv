@@ -1,3 +1,64 @@
+.page{
+    margin: o auto;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.74);
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+} 
+
+
+.contacts-main{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    background: rgb(112, 214, 10);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif; 
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+li{
+    font-family: 'Raleway', sans-serif;
+}
+
+.my-name{
+    color: rgb(253, 253, 253);
+}
+
+.contacts-title{
+    
+    color: rgb(253, 253, 253)   
+}
+
+.contacts{
+    color: rgb(253, 253, 253);
+}
+
 .code-code{
-    background: gray;
+    background: green;
+    color: chartreuse;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    background: rgb(255, 232, 27);
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+} 
 }
